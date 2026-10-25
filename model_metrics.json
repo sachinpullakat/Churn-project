@@ -1,0 +1,56 @@
+{
+  "model": "RandomForestClassifier",
+  "target_column": "Churn",
+  "dataset_rows_after_cleaning": 7032,
+  "feature_count": 45,
+  "train_rows": 5625,
+  "test_rows": 1407,
+  "random_state": 42,
+  "positive_class": "Churn",
+  "accuracy": 0.7846481876332623,
+  "precision": 0.624561403508772,
+  "recall": 0.47593582887700536,
+  "f1_score": 0.5402124430955993,
+  "confusion_matrix_labels": [
+    "Stay (0)",
+    "Churn (1)"
+  ],
+  "confusion_matrix": [
+    [
+      926,
+      107
+    ],
+    [
+      196,
+      178
+    ]
+  ],
+  "classification_report": {
+    "Stay": {
+      "precision": 0.8253119429590018,
+      "recall": 0.8964181994191674,
+      "f1-score": 0.8593967517401392,
+      "support": 1033.0
+    },
+    "Churn": {
+      "precision": 0.624561403508772,
+      "recall": 0.47593582887700536,
+      "f1-score": 0.5402124430955993,
+      "support": 374.0
+    },
+    "accuracy": 0.7846481876332623,
+    "macro avg": {
+      "precision": 0.7249366732338869,
+      "recall": 0.6861770141480864,
+      "f1-score": 0.6998045974178693,
+      "support": 1407.0
+    },
+    "weighted avg": {
+      "precision": 0.7719496815841718,
+      "recall": 0.7846481876332623,
+      "f1-score": 0.7745531615247463,
+      "support": 1407.0
+    }
+  },
+  "roc_auc": 0.8123139601700047
+}

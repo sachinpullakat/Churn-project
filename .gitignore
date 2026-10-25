@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Private/local datasets
+dataset.csv
+data/raw/
+data/private/
+
+# Local backups
+*_backup.*
+*.bak
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
+# Duplicate local files
+requirements - Copy.txt
+train - Copy.py
+*_backup.*
+
+# Generated evaluation output
+# Keep these ignored only if the app does not read them:
+# test_predictions.csv
